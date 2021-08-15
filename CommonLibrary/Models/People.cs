@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 namespace ODataService.Models
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
     public class City: IEntity
     {
         public string Name { get; set; }
