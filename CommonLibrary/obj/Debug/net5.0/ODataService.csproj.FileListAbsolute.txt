@@ -1,0 +1,12 @@
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\bin\Debug\net5.0\ODataService.deps.json
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\bin\Debug\net5.0\ODataService.dll
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\bin\Debug\net5.0\ref\ODataService.dll
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\bin\Debug\net5.0\ODataService.pdb
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ODataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ODataService.AssemblyInfoInputs.cache
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ODataService.AssemblyInfo.cs
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ODataService.csproj.CoreCompileInputs.cache
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ODataService.dll
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ref\ODataService.dll
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ODataService.pdb
+C:\Users\vedo_\source\repos\OData v4\CommonLibrary\obj\Debug\net5.0\ODataService.csprojAssemblyReference.cache

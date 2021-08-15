@@ -1,0 +1,7 @@
+﻿namespace Application
+{
+    class OutputData
+    {
+
+    }
+}
