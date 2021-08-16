@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{3C56A193-BF13-434F-9318-6F42AE2A710C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataService", "CommonLibrary\ODataService.csproj", "{60FFFC56-058C-4508-9912-6A5394AD0B71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataService", "ODataService\ODataService.csproj", "{60FFFC56-058C-4508-9912-6A5394AD0B71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

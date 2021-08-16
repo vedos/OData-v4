@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ei6uryhuMFCWyr8OKtiWfrIxuoILcwq+W+E+O8sOf8SC7TYGl6dD82ToBcd6PbECeYMz2FeC9oFplPL3tqtIpQ==",
+  "dgSpecHash": "oitvxKRPoJJ8zka7Bsc2yOjZPPtHWb8ts5coGKgYwnYI7OTwJlTDTWwrgUpuLgRrmOpyDWc82VcLmVGHz1MXAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\ODataService.csproj",
+  "projectFilePath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\ODataService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vedo_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\vedo_\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

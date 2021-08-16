@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\ODataService.csproj": {}
+    "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\ODataService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\ODataService.csproj": {
+    "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\ODataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\ODataService.csproj",
+        "projectUniqueName": "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\ODataService.csproj",
         "projectName": "ODataService",
-        "projectPath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\ODataService.csproj",
+        "projectPath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\ODataService.csproj",
         "packagesPath": "C:\\Users\\vedo_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\obj\\",
+        "outputPath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vedo_\\AppData\\Roaming\\NuGet\\NuGet.Config",

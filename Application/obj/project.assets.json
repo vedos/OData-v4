@@ -286,8 +286,8 @@
     },
     "ODataService/1.0.0": {
       "type": "project",
-      "path": "../CommonLibrary/ODataService.csproj",
-      "msbuildProject": "../CommonLibrary/ODataService.csproj"
+      "path": "../ODataService/ODataService.csproj",
+      "msbuildProject": "../ODataService/ODataService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -322,8 +322,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\ODataService.csproj": {
-              "projectPath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\CommonLibrary\\ODataService.csproj"
+            "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\ODataService.csproj": {
+              "projectPath": "C:\\Users\\vedo_\\source\\repos\\OData v4\\ODataService\\ODataService.csproj"
             }
           }
         }

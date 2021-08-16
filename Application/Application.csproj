@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommonLibrary\ODataService.csproj" />
+    <ProjectReference Include="..\ODataService\ODataService.csproj" />
   </ItemGroup>
 
 </Project>
