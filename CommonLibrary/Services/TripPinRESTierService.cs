@@ -2,8 +2,6 @@
 using ODataService.Models;
 using ODataService.Services.Interfaces;
 using Newtonsoft.Json;
-using System.Web;
-using System;
 
 namespace ODataService.Services
 {
@@ -19,13 +17,13 @@ namespace ODataService.Services
 
             var response = client.Get(getPath() + "/People");
 
-            Result<People> result = new Result<People>();
             if (response.IsSuccessStatusCode)
             {
-                result = JsonConvert.DeserializeObject<Result<People>>(response.Content.ReadAsStringAsync().Result);
+                Result<People> result = JsonConvert.DeserializeObject<Result<People>>(response.Content.ReadAsStringAsync().Result);
+                return result;
             }
-
-            return result;
+            
+            return null;
         }
 
         public People getUser(string user)
@@ -34,13 +32,13 @@ namespace ODataService.Services
 
             var response = client.Get(getPath() + "/People" + "('" + user + "')");
 
-            People result = new People();
             if (response.IsSuccessStatusCode)
             {
-                result = JsonConvert.DeserializeObject<People>(response.Content.ReadAsStringAsync().Result);
+                People result = JsonConvert.DeserializeObject<People>(response.Content.ReadAsStringAsync().Result);
+                return result;
             }
 
-            return result;
+            return null;
         }
 
 
@@ -51,13 +49,13 @@ namespace ODataService.Services
 
             var response = client.Get(getPath() + "/People?" + "$filter=" + field +  search);
 
-            Result<People> result = new Result<People>();
             if (response.IsSuccessStatusCode)
             {
-                result = JsonConvert.DeserializeObject<Result<People>>(response.Content.ReadAsStringAsync().Result);
+                Result<People> result = JsonConvert.DeserializeObject<Result<People>>(response.Content.ReadAsStringAsync().Result);
+                return result;
             }
 
-            return result;
+            return null;
         }
     }
 }

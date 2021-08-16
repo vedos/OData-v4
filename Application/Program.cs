@@ -23,16 +23,24 @@ namespace Application
                 Console.WriteLine("3. Search for user");
                 Console.WriteLine("Type 'end' to close program.");
                 enter = Console.ReadLine();
-
+                string result = string.Empty;
                 switch (enter)
                 {
                     case "1":
-                        Console.WriteLine(tripPinRESTierService.getPeople().value.toString<People>());
+                        result = tripPinRESTierService.getPeople()?.value.toString<People>();
+                        if (result == null)
+                            Console.WriteLine("No Data");
+                        else
+                            Console.WriteLine(result);
                         break;
                     case "2":
                         Console.WriteLine("Enter username: ");
                         string username = Console.ReadLine();
-                        Console.WriteLine(tripPinRESTierService.getUser(username).toString());
+                        result = tripPinRESTierService.getUser(username)?.toString();
+                        if (result == null)
+                            Console.WriteLine("No Data");
+                        else
+                            Console.WriteLine(result);
                         break;
                     case "3":
                         Console.WriteLine("Enter field to search: ");
@@ -40,7 +48,12 @@ namespace Application
                         Console.WriteLine(field);
                         Console.WriteLine("Search: ");
                         string search = Console.ReadLine();
-                        Console.WriteLine(tripPinRESTierService.searchUser(field, search).value.toString<People>());
+
+                        result = tripPinRESTierService.searchUser(field, search)?.value.toString<People>();
+                        if (result == null)
+                            Console.WriteLine("No Data");
+                        else
+                            Console.WriteLine(result);
                         break;
                 }
             } while (enter != "end");
